@@ -291,17 +291,17 @@ nav ul li a:hover {
 }
 
 .project-list .prj-1{
-    background: url("/images/farmrentals.jpg");
+    background: url("images/farmrentals.jpg");
     background-position: center;
     background-size: cover;
 }
 .project-list .prj-2{
-    background: url("/images/weather app.jpg");
+    background: url("images/weather app.jpg");
     background-position: top  left;
     background-size: cover;
 }
 .project-list .prj-3{
-    background: url("/images/competitive.jpg");
+    background: url("images/competitive.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -341,7 +341,7 @@ nav ul li a:hover {
 }
 
 .carryover a{
-    background: url("/images/link.png");
+    background: url("images/link.png");
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -442,27 +442,27 @@ nav ul li a:hover {
 }
 
 .icon-box .linkedin{
-    background: url("/images/linkedin-icon.png");
+    background: url("images/linkedin-icon.png");
     background-position: center;
     background-size: cover;
 }
 .icon-box .github{
-    background: url("/images/github.webp");
+    background: url("images/github.webp");
     background-position: center;
     background-size: cover;
 }
 .icon-box .gfg{
-    background: url("/images/gfg.jpg");
+    background: url("images/gfg.jpg");
     background-position: center;
     background-size: cover;
 }
 .icon-box .leetcode{
-    background: url("/images/leetcode.png");
+    background: url("images/leetcode.png");
     background-position: center;
     background-size: cover;
 }
 .icon-box .codestudio{
-    background: url("/images/codestudio.jpeg");
+    background: url("images/codestudio.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -598,84 +598,6 @@ form input, form textarea{
   .author :nth-child(6):hover {
     color: #00d0ff;
   }
-/* --------------mobile------------- */
-
-nav .fa-solid{
-    display: none;
-}
-
-@media only screen and (max-width: 600px){
-    #header{
-        background-image: url(./imgForMobile.png);
-     }
- 
-     .header-text{
-         margin-top: 550px;
-         font-size: 30px;
-     }
- 
-     .header-text h1{
-         font-size: 45px;
-         margin-top: 15px;
-     }
- 
-     nav .fa-solid{
-         display: block;
-         font-size: 25px;
-         position: absolute;
-         top: 25px;
-         right: 25px;
-         cursor: pointer; 
-     }
- 
-     nav ul{
-         background-color: #ff004f;
-         position: fixed;
-         top: 0;
-         right: -200px;
-         width: 150px;
-         height: 100vh;
-         padding-top: 50px;
-         z-index: 2;
-         transition: right 0.4s;
-         -webkit-transition: right 0.4s;
-         -moz-transition: right 0.4s;
-         -ms-transition: right 0.4s;
-         -o-transition: right 0.4s;
-     }
- 
-     nav ul li{
-         display: block;
-         margin: 25px;
-     }
- 
-     nav ul .fa-solid{
-         position: absolute;
-         top: 25px;
-         left: 25px;
-         cursor: pointer;
-     } 
- 
-     .about-col-2 h1{
-        font-size: 40px;
-     }
-
-     .about-col-1, .about-col-2{
-        flex-basis: 100%;
-     }
-
-     .about-col-1{
-        margin-bottom: 30px;
-     }
-
-     .contact-1, .contact-2{
-        flex-basis: 100%;
-     }
-
-     .copyright{
-        font-size: 15px;
-     }
-}
 
 #msg{
     color: #ababab;
