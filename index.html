@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/83b33407c6.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,800;1,400;1,600;1,800&display=swap"
+    rel="stylesheet" />
+
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <!-- //////////// hero section ////////// -->
+  <section id="header-section">
+    <nav>
+      <div class="logo ">
+        <h1 class="purple">Folio</h1>
+      </div>
+      <ul id="sidemenu">
+        <li><a href="#header-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#services-section">Services</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </nav>
+    <div class="container">
+      <div class="fit-content">
+        <div class="leftContent">
+          <div class="header-text">
+            <!-- Element to contain animated typing -->
+            <span id="element"></span>
+
+            <h1>
+              Hi, there I'm <br />
+              <span class="purple"> Sanket</span> Gourkhede
+            </h1>
+          </div>
+        </div>
+        <div class="rightContent">
+          <img src="/images/coder.png" alt="coder" srcset="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ///////// about section ///////// -->
+
+  <section id="about-section">
+    <div class="container">
+      <div class="display-divide">
+        <div class="about-col-1">
+          <img src="/images/codaaar.png" alt="self image" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="section-heading">About me</h1>
+          <p>
+            I'm pursuing graduation in B.Tech Computer Science and
+            Engineering. I have passion for computer programming and
+            Development.
+          </p>
+          <p>
+            Aspiring for a challenging career in Software Development as to
+            use my learnt skills and getting involved with new technologies
+            that can help me to improve my technical skills. Fluent in
+            front-end technologies, dedicated to building scalable and
+            user-friendly experiences.
+          </p>
+
+          <div class="tab-title">
+            <p class="tab-link I" onclick="opentab('skills')">Skills</p>
+            <p class="tab-link II" onclick="opentab('education')">
+              Education
+            </p>
+            <p class="tab-link III" onclick="opentab('experience')">
+              Experience
+            </p>
+          </div>
+          <div class="tab-content I" id="skills">
+            <ul>
+              <li>
+                <span>Web Development</span><br />HTML | CSS | JavaScript |
+                React | Bootstrap
+              </li>
+              <li>
+                <span>Problem Solving</span><br />Data Structures | Algorithm
+              </li>
+              <li>
+                <span>Programming Languages</span><br />
+                C | C++ | Python
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content II" id="education">
+            <ul>
+              <li>
+                <span>2020 - 2024</span><br />B.Tech CSE at Government College
+                of Engineering, Nagpur <br />CGPA : 8.39
+              </li>
+              <li>
+                <span>2019 - 2020</span><br />HSC at Vishwas Junior College,
+                Wathoda (MSBSHSE) <br />Score : 86 %
+              </li>
+              <li>
+                <span>2017 - 2018</span><br />SSC at Swami Awadheshanand
+                Public School, Kamptee (CBSE) <br />Score : 87 %
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content III" id="experience">
+            <ul>
+              <li>
+                <span>Feb'2024 - Present</span><br />Frontend Intern at
+                CodSoft
+              </li>
+              <li>
+                <span>Jun'2023 - Aug'2023</span><br />Martian Intern at
+                Persistent Systems
+              </li>
+              <li>
+                <span>Apr'2022 - May'2022</span><br />Content Writing Intern
+                at Beyond Exams
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ////////// services /////////// -->
+
+  <section id="services-section">
+    <div class="container">
+      <h1 class="section-heading">Services</h1>
+      <div class="services-list">
+        <div>
+          <img src="/images/web-dev.svg" alt="web-dev" srcset="">
+          <h2>Web Development</h2>
+          <p>
+            As a burgeoning web artisan, fueled by student fervor,
+            I thrive on molding visions into web realms, I endeavor.
+            Mastering the dance of front-end finesse, back-end depth,
+            Each project a canvas, where creativity takes its breath.
+          </p>
+        </div>
+
+        <div>
+          <img src="/images/probllllem.svg" alt="web-dev" srcset="">
+          <h2>Problem Solving</h2>
+          <p>Passionate about DSA, I like solving complex computational challenges. With a strong foundation and
+            competitive programming background, I craft efficient solutions with creativity and precision. Ready to
+            tackle problems head-on, thrive on delivering optimized solutions.
+          </p>
+        </div>
+
+        <div>
+          <img src="/images/hackathon.png" alt="web-dev" srcset="">
+          <h2>Hackthons</h2>
+          <p>
+            With a passion for teamwork and innovation, I dive into challenges, working seamlessly with others to
+            deliver impactful solutions. Fueled by competition and driven by excellence, I embrace the collaborative
+            spirit, transforming ideas into reality with creativity and precision.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ////////// projects section ////////// -->
+  <section id="projects-section">
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+      <div class="project-list">
+        <div class="project prj-1">
+
+          <div class="carryover">
+            <h2>FarmRentals</h2>
+            <p>
+              It is an innovative web platform designed to help farmers generate additional income by renting their
+              equipment to other farmers.
+            </p>
+            <a href="https://www.farmrentals.live/index.html">
+            </a>
+          </div>
+        </div>
+        <div class="project prj-2">
+
+          <div class="carryover">
+            <h2>Weather App</h2>
+            <p>
+              A dynamic weather app, seamlessly delivering real-time weather updates with user-friendly functionality.
+              Utilizing APIs and intuitive design,offering accurate forecasts, enhancing user experience with ease and
+              efficiency.
+            </p>
+            <a href="https://sanketcr021.github.io/Weather-App/"></a>
+          </div>
+        </div>
+        <div class="project prj-3">
+
+          <div class="carryover">
+            <h2>Competitive Coding</h2>
+            <p>
+              Consistently solved 500+ problems across various platforms like GeeksForGeeks, LeetCode, CodeStudio, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="certifications">
+        <a href="#">Certifications</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- /////////// contact section ///////////// -->
+  <section id="contact-section">
+    <div class="container">
+      <h2 class="section-heading">Contact Me</h2>
+      <p>
+      <div class="contact-page-divide">
+        <div class="contact-1">
+          <p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sanket88gg@gmail.com" target="blank"
+              rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i>
+              sanket88gg@gmail.com
+            </a>
+          </p>
+          <p><i class="fa-solid fa-mobile-screen"></i> +91 8830208571</p>
+          <div class="icon-box">
+            <a href="https://www.linkedin.com/in/sanket-gourkhede/">
+              <div class="codingProfile linkedin"></div>
+            </a>
+            <a href="https://github.com/SanketCR021">
+              <div class="codingProfile github"></div>
+            </a>
+
+            <a href="https://auth.geeksforgeeks.org/user/__sanketsuper__">
+              <div class="codingProfile gfg"></div>
+            </a>
+
+            <a href="https://leetcode.com/mrX_Factor021/">
+              <div class="codingProfile leetcode"></div>
+            </a>
+
+            <a href="https://www.codingninjas.com/studio/profile/SuperSanket021">
+              <div class="codingProfile codestudio"></div>
+            </a>
+
+          </div>
+          <a href="/Sanket's Resume (5).pdf" class="resume-btn">Download CV</a>
+        </div>
+        <div class="contact-2">
+
+          <form action="https://formspree.io/f/mnqebvvd" name="contact-form" method="POST">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="author">
+      <p class="text">Copyright © by SuperSanket </p>
+      <a href="https://github.com/SanketCR021">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/sanket-gourkhede/">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/supersanket.021?igsh=MTFnN3I0ZmM1ZnBrYg==">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/sanket-gourkhede/">
+        <i class="fa-brands fa-square-facebook fa-2x"></i>
+      </a>
+      <a href="https://t.me/factorjeger">
+        <i class="fa-brands fa-telegram fa-2x"></i>
+      </a>
+    </div>
+  </section>
+  <!-- /// Type.`js -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer.', 'Competitive Coder.', 'Software Developer.', 'Web developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
